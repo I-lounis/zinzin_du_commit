@@ -30,7 +30,8 @@ class Router
     {
         $this->routes[$pattern] = [
             'controller' => $controllerName,
-            'method' => $method
+            'method' => $method,
+ 
         ];
     }
 
