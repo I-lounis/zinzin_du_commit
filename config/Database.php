@@ -22,5 +22,6 @@ class Database
             // Gestion d'erreur
             die("Erreur de connexion ❌ : " . $e->getMessage());
         };
+        return $pdo;
     }
 }
